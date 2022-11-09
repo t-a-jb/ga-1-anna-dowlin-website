@@ -1,8 +1,14 @@
+html, body {
+    height: 100%;
+}
+
 body {
     text-align: center;
+    height: 100%;
     background: url("./images/bridge.jpeg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     color: white;
     font-family: helvetica;
 }
@@ -17,7 +23,19 @@ input {
     font-size: 18px;
 }
 
-input[type="submit"] {
+/* input[type="submit"] {
     background: red;
     color: white;
+} */
+
+button {
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: darkred;
 }
